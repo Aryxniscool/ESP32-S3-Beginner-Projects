@@ -1,6 +1,6 @@
 # Two-Player Reaction Game
 
-A head-to-head reaction speed game with a synchronized LED countdown and live OLED scoreboard. First to 3 wins (best of 5 rounds).
+A head-to-head reaction speed game with a synchronized LED countdown and live scoreboard. First to 3 wins (best of 5 rounds).
 
 ## Wiring
 
@@ -34,4 +34,4 @@ Buttons wired GPIO → GND (internal pull-ups used, no external resistor needed)
 
 ## Flash it
 
-Open `reaction_game.ino` in Arduino IDE, install the libraries above via Library Manager, select Board: `ESP32S3 Dev Module`, upload.
+Open `reaction_game.ino` in Arduino IDE, install the libraries above via Library Manager, select Board and Port , upload.

@@ -36,7 +36,6 @@ void allGreensOff() {
   digitalWrite(GREEN1, LOW); digitalWrite(GREEN2, LOW);
 }
 
-// Note: Player 1 is displayed on the RIGHT, Player 2 on the LEFT
 void drawIdleScreen() {
   display.clearDisplay();
   display.setTextColor(SSD1306_WHITE);
@@ -139,7 +138,7 @@ void setup() {
   allGreensOff();
   randomSeed(analogRead(0));
 
-  Wire.begin(8, 9); // SDA, SCL
+  Wire.begin(8, 9); 
   if (!display.begin(SSD1306_SWITCHCAPVCC, OLED_ADDR)) {
     Serial.println("OLED not found");
     while (1);

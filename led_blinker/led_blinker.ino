@@ -1,4 +1,4 @@
-#define LED_PIN 4  // change to whichever GPIO you wired
+#define LED_PIN 4  
 
 void setup() {
   pinMode(LED_PIN, OUTPUT);

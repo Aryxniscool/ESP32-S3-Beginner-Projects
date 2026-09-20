@@ -8,7 +8,7 @@ A collection of small embedded systems projects built on the ESP32-S3, going fro
 |---|---------|-------------|----------|
 | 1 | [LED Blinker](./led_blinker) | Basic GPIO output control — blinks an external LED | 1x LED, resistor |
 | 2 | [Reaction Game](./reaction_game) | Two-player reaction speed game with synchronized countdown | 2x buttons, 2x green LEDs, 3x red LEDs, 0.96" OLED |
-| 3 | [Tetris on OLED](./tetris_oled) | Fully playable Tetris clone rendered on a 128x64 monochrome display | 4x buttons, 0.96" OLED, status LEDs |
+| 3 | [Tetris on OLED](./tetris) | Fully playable Tetris clone rendered on a 128x64 monochrome display | 4x buttons, 0.96" OLED, status LEDs |
 
 ## Hardware Used
 

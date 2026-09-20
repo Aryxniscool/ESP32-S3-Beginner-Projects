@@ -1,6 +1,6 @@
 # LED Blinker
 
-The "hello world" of embedded systems — blinks an external LED on the ESP32-S3, avoiding the built-in LED to confirm raw GPIO output control.
+The "hello world" of embedded systems.
 
 ## Wiring
 

@@ -6,13 +6,13 @@ A collection of small embedded systems projects built on the ESP32-S3, going fro
 
 | # | Project | Description | Hardware |
 |---|---------|-------------|----------|
-| 1 | [LED Blinker](./led_blinker) | Basic GPIO output control — blinks an external LED | 1x LED, resistor |
+| 1 | [LED Blinker](./led_blinker) | Basic GPIO output control blinks an external LED | 1x LED, resistor |
 | 2 | [Reaction Game](./reaction_game) | Two-player reaction speed game with synchronized countdown | 2x buttons, 2x green LEDs, 3x red LEDs, 0.96" OLED |
 | 3 | [Tetris on OLED](./tetris) | Fully playable Tetris clone rendered on a 128x64 monochrome display | 4x buttons, 0.96" OLED, status LEDs |
 
 ## Hardware Used
 
-- **MCU:** ESP32-S3 (Dev board)
+- **MCU:** ESP32-S3 (Dev board)(u can use any esp)
 - **Display:** 0.96" I2C OLED (SSD1306, 128x64)
 - **Input:** Tactile push buttons
 - **Output:** Red & green 5mm LEDs, 220–330Ω resistors
